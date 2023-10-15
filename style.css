@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  color: #89b0ae;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.btn {
+  padding: 6px 12px;
+  background: white;
+  border: none;
+  font-family: inherit; /*상속키워드, body에 적용되는 font를 .btn에 상속받아 적용한다*/
+  color: #89b0ae;
+  font-weight: 800;
+}
+
+#hero {
+  background-image: url("image/galaxy.webp");
+  background-size: cover; /*브라우저 너비에 맞게 축소,확대된다*/
+  padding: 10px 0 40px 0;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+}
+
+#main-logo {
+  width: 100px;
+}
+
+#title {
+  text-shadow: 0px 0px 4px black;
+}
